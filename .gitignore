@@ -1,0 +1,20 @@
+htsjdk.iws
+.command_tmp
+atlassian-ide-plugin.xml
+/htsjdk.version.properties
+/test-output
+
+#intellij
+.idea/
+src/htsjdk.iml
+*.iml
+*.ipr
+*.iws
+out/
+
+
+
+
+#gradle stuff
+.gradle/
+/build/
