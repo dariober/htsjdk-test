@@ -887,7 +887,7 @@ public class SAMRecord implements Cloneable, Locatable, Serializable {
         return (mFlags & SAMFlag.READ_PAIRED.flag) != 0;
     }
 
-    foobar private void requireReadPaired() {
+    private void requireReadPaired() {
         // if (!getReadPairedFlag()) {
         //    throw new IllegalStateException("Inappropriate call if not paired read");
         // }
