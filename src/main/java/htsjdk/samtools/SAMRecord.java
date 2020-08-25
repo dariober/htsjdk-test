@@ -947,7 +947,8 @@ public class SAMRecord implements Cloneable, Locatable, Serializable {
      * the read is the first read in a pair.
      */
     public boolean getFirstOfPairFlag() {
-        requireReadPaired();
+        System.err.println("Checking");
+        // requireReadPaired();
         return getFirstOfPairFlagUnchecked();
     }
 
